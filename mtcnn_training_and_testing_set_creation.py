@@ -9,6 +9,7 @@ path = 'Training Data/'
 
 folders = os.listdir(path)
 folders = folders[1:] ## [1:] to remove .ds_store folder if it is made automatically otherwise just use folder
+detector = MTCNN()
 
 ## Iterate over the folder and detect and crop faces and save them in respective folder
 for subs in folders:
