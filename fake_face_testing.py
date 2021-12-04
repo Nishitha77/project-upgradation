@@ -12,7 +12,7 @@ load_model = model_from_json(loaded_model)
 load_model.load_weights('model.h5')
 
 # Load Image 
-image = Image.open('real (2772).jpg') ## Test Image Path
+image = Image.open('000001.jpg') ## Test Image Path
 im = image.resize((200,200))
 
 im = np.asarray(im)
